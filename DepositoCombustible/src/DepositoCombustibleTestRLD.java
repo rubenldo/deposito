@@ -10,42 +10,42 @@ DepositoCombustible comb;
 
 	
 	@Before
-	public void testValorInicial() {
+	public void testValorInicialRLD() {
 		comb = new DepositoCombustible(100,25);
 	}
 	
 	@After
-	public void TerminarPruebas(){
+	public void TerminarPruebasRLD(){
 		comb=null;
 	}
 	
 	@Test
-	public void testGetDepositoNivel() {
+	public void testGetDepositoNivelRLD() {
 		assertEquals(25,comb.getDepositoNivel(),0);
 	}
 
 	@Test
-	public void testGetDepositoMax() {
+	public void testGetDepositoMaxRLD() {
 		assertEquals(100,comb.getDepositoMax(),0);
 	}
 
 	@Test
-	public void testDepositoVacio() {
+	public void testDepositoVacioRLD() {
 		assertFalse(comb.estaVacio());
 	}
 
 	@Test
-	public void testDepositoLleno() {
+	public void testDepositoLlenoRLD() {
 		assertFalse(comb.estaLleno());
 	}
 
 	@Test
-	public void testmitad() {
+	public void testmitadRLD() {
 		assertEquals(50,(comb.getDepositoMax()/2),0);
 	}
 
 	@Test
-	public void testConsumir() {
+	public void testConsumirRLD() {
 		assertEquals(25,comb.getDepositoNivel(),0);
 	}
 

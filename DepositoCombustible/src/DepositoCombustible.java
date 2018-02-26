@@ -3,7 +3,7 @@
  * Un objeto DepositoCombustible agrupa la informaci贸n necesaria para describir el estado del dep贸sito:
  * <ul>
  *   <li> depMax   capacidad del dep贸sito
- *   <li> depNivel	nivel de gasolina del dep贸sito
+ *   <li> depNivel	nivel de gasolina del dep硈ito
  * </ul>
  * 
  * class invariante 		0.0 &lt;= depNivel &lt;= depMax
@@ -26,7 +26,7 @@ public class DepositoCombustible {
 	* <hr>
 	* 
 	* @param tankMax  es la cantidad de combustible (medida en litros) que cabe en el dep贸sito
-	* @param tankLevel es la cantidad de combustible (medida en litros) que contiene el dep贸sito inicialmente
+	* @param tankLevel es la cantidad de combustible (medida en litros) que contiene el dep贸sitohffghf inicialmente
 	* 
 	*/ 
 	DepositoCombustible(double tankMax, double tankLevel) {
